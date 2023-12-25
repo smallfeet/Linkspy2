@@ -1,0 +1,265 @@
+20:54 ~ $ pwd
+/home/whoishakib
+20:54 ~ $ cd Kuch-Bhi
+20:54 ~/Kuch-Bhi (main)$ ls
+App  myenv
+20:54 ~/Kuch-Bhi (main)$ cd Kuch-Bhi
+bash: cd: Kuch-Bhi: No such file or directory
+20:55 ~/Kuch-Bhi (main)$ bash: cd: Kuch-Bhi: No such file or directory
+bash: bash:: command not found
+20:55 ~/Kuch-Bhi (main)$ 
+20:55 ~/Kuch-Bhi (main)$ cd Kuch-Bhi
+bash: cd: Kuch-Bhi: No such file or directory
+20:56 ~/Kuch-Bhi (main)$ ls
+App  myenv
+20:56 ~/Kuch-Bhi (main)$ 20:56 ~/Kuch-Bhi (main)$ ls
+bash: syntax error near unexpected token `('
+20:57 ~/Kuch-Bhi (main)$ App  myenv
+bash: App: command not found
+20:57 ~/Kuch-Bhi (main)$ 20:56 ~/Kuch-Bhi (main)$ ls
+bash: syntax error near unexpected token `('
+20:58 ~/Kuch-Bhi (main)$ ls
+App  myenv
+20:58 ~/Kuch-Bhi (main)$ source myenv/bin/activate
+(myenv) 20:58 ~/Kuch-Bhi (main)$ cd App
+bash: cd: App: Not a directory
+(myenv) 20:58 ~/Kuch-Bhi (main)$ pip install -r requirements.txt
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+(myenv) 20:58 ~/Kuch-Bhi (main)$ python app.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/app.py': [Errno 2] No such file or directory
+(myenv) 20:58 ~/Kuch-Bhi (main)$ source myenv/bin/activate
+(myenv) 21:00 ~/Kuch-Bhi (main)$ pip install -r requirements.txt
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+(myenv) 21:00 ~/Kuch-Bhi (main)$ python app.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/app.py': [Errno 2] No such file or directory
+(myenv) 21:00 ~/Kuch-Bhi (main)$ pwd
+/home/whoishakib/Kuch-Bhi
+20:54 ~ $ pwd
+/home/whoishakib
+20:54 ~ $ cd Kuch-Bhi
+20:54 ~/Kuch-Bhi (main)$ ls
+App  myenv
+20:54 ~/Kuch-Bhi (main)$ cd Kuch-Bhi
+bash: cd: Kuch-Bhi: No such file or directory
+20:55 ~/Kuch-Bhi (main)$ bash: cd: Kuch-Bhi: No such file or directory
+bash: bash:: command not found
+20:55 ~/Kuch-Bhi (main)$ 
+20:55 ~/Kuch-Bhi (main)$ cd Kuch-Bhi
+bash: cd: Kuch-Bhi: No such file or directory
+20:56 ~/Kuch-Bhi (main)$ ls
+App  myenv
+20:56 ~/Kuch-Bhi (main)$ 20:56 ~/Kuch-Bhi (main)$ ls
+bash: syntax error near unexpected token `('
+20:57 ~/Kuch-Bhi (main)$ App  myenv
+bash: App: command not found
+20:57 ~/Kuch-Bhi (main)$ 20:56 ~/Kuch-Bhi (main)$ ls
+bash: syntax error near unexpected token `('
+20:58 ~/Kuch-Bhi (main)$ ls
+App  myenv
+20:58 ~/Kuch-Bhi (main)$ source myenv/bin/activate
+(myenv) 20:58 ~/Kuch-Bhi (main)$ cd App
+bash: cd: App: Not a directory
+(myenv) 20:58 ~/Kuch-Bhi (main)$ pip install -r requirements.txt
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+(myenv) 20:58 ~/Kuch-Bhi (main)$ python app.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/app.py': [Errno 2] No such file or directory
+(myenv) 20:58 ~/Kuch-Bhi (main)$ source myenv/bin/activate
+(myenv) 21:00 ~/Kuch-Bhi (main)$ pip install -r requirements.txt
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+(myenv) 21:00 ~/Kuch-Bhi (main)$ python app.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/app.py': [Errno 2] No such file or directory
+(myenv) 21:00 ~/Kuch-Bhi (main)$ pwd
+/home/whoishakib/Kuch-Bhi
+(myenv) 21:00 ~/Kuch-Bhi (main)$ ls
+App  myenv
+(myenv) 21:00 ~/Kuch-Bhi (main)$ ls
+App  myenv
+(myenv) 21:01 ~/Kuch-Bhi (main)$ python App.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/App.py': [Errno 2] No such file or directory
+(myenv) 21:03 ~/Kuch-Bhi (main)$ python Kuch-Bhi.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/Kuch-Bhi.py': [Errno 2] No such file or directory
+(myenv) 21:04 ~/Kuch-Bhi (main)$ python App.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/App.py': [Errno 2] No such file or directory
+(myenv) 21:05 ~/Kuch-Bhi (main)$ python App.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/App.py': [Errno 2] No such file or directory
+(myenv) 21:05 ~/Kuch-Bhi (main)$ ls
+App  myenv
+(myenv) 21:06 ~/Kuch-Bhi (main)$ python App
+Traceback (most recent call last):
+  File "/home/whoishakib/Kuch-Bhi/App", line 1, in <module>
+    from flask import Flask, render_template, request
+ModuleNotFoundError: No module named 'flask'
+(myenv) 21:07 ~/Kuch-Bhi (main)$ pip install Flask
+Looking in links: /usr/share/pip-wheels
+20:54 ~ $ pwd
+/home/whoishakib
+20:54 ~ $ cd Kuch-Bhi
+20:54 ~/Kuch-Bhi (main)$ ls
+App  myenv
+20:54 ~/Kuch-Bhi (main)$ cd Kuch-Bhi
+bash: cd: Kuch-Bhi: No such file or directory
+20:55 ~/Kuch-Bhi (main)$ bash: cd: Kuch-Bhi: No such file or directory
+bash: bash:: command not found
+20:55 ~/Kuch-Bhi (main)$ 
+20:55 ~/Kuch-Bhi (main)$ cd Kuch-Bhi
+bash: cd: Kuch-Bhi: No such file or directory
+20:56 ~/Kuch-Bhi (main)$ ls
+App  myenv
+20:56 ~/Kuch-Bhi (main)$ 20:56 ~/Kuch-Bhi (main)$ ls
+bash: syntax error near unexpected token `('
+20:57 ~/Kuch-Bhi (main)$ App  myenv
+bash: App: command not found
+20:57 ~/Kuch-Bhi (main)$ 20:56 ~/Kuch-Bhi (main)$ ls
+bash: syntax error near unexpected token `('
+20:58 ~/Kuch-Bhi (main)$ ls
+App  myenv
+20:58 ~/Kuch-Bhi (main)$ source myenv/bin/activate
+(myenv) 20:58 ~/Kuch-Bhi (main)$ cd App
+bash: cd: App: Not a directory
+(myenv) 20:58 ~/Kuch-Bhi (main)$ pip install -r requirements.txt
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+(myenv) 20:58 ~/Kuch-Bhi (main)$ python app.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/app.py': [Errno 2] No such file or directory
+(myenv) 20:58 ~/Kuch-Bhi (main)$ source myenv/bin/activate
+(myenv) 21:00 ~/Kuch-Bhi (main)$ pip install -r requirements.txt
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+(myenv) 21:00 ~/Kuch-Bhi (main)$ python app.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/app.py': [Errno 2] No such file or directory
+(myenv) 21:00 ~/Kuch-Bhi (main)$ pwd
+/home/whoishakib/Kuch-Bhi
+(myenv) 21:00 ~/Kuch-Bhi (main)$ ls
+App  myenv
+(myenv) 21:00 ~/Kuch-Bhi (main)$ ls
+App  myenv
+(myenv) 21:01 ~/Kuch-Bhi (main)$ python App.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/App.py': [Errno 2] No such file or directory
+(myenv) 21:03 ~/Kuch-Bhi (main)$ python Kuch-Bhi.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/Kuch-Bhi.py': [Errno 2] No such file or directory
+(myenv) 21:04 ~/Kuch-Bhi (main)$ python App.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/App.py': [Errno 2] No such file or directory
+(myenv) 21:05 ~/Kuch-Bhi (main)$ python App.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/App.py': [Errno 2] No such file or directory
+(myenv) 21:05 ~/Kuch-Bhi (main)$ ls
+App  myenv
+(myenv) 21:06 ~/Kuch-Bhi (main)$ python App
+Traceback (most recent call last):
+  File "/home/whoishakib/Kuch-Bhi/App", line 1, in <module>
+    from flask import Flask, render_template, request
+ModuleNotFoundError: No module named 'flask'
+(myenv) 21:07 ~/Kuch-Bhi (main)$ pip install Flask
+Looking in links: /usr/share/pip-wheels
+20:54 ~ $ pwd
+/home/whoishakib
+20:54 ~ $ cd Kuch-Bhi
+20:54 ~/Kuch-Bhi (main)$ ls
+App  myenv
+20:54 ~/Kuch-Bhi (main)$ cd Kuch-Bhi
+bash: cd: Kuch-Bhi: No such file or directory
+20:55 ~/Kuch-Bhi (main)$ bash: cd: Kuch-Bhi: No such file or directory
+bash: bash:: command not found
+20:55 ~/Kuch-Bhi (main)$ 
+20:55 ~/Kuch-Bhi (main)$ cd Kuch-Bhi
+bash: cd: Kuch-Bhi: No such file or directory
+20:56 ~/Kuch-Bhi (main)$ ls
+App  myenv
+20:56 ~/Kuch-Bhi (main)$ 20:56 ~/Kuch-Bhi (main)$ ls
+bash: syntax error near unexpected token `('
+20:57 ~/Kuch-Bhi (main)$ App  myenv
+bash: App: command not found
+20:57 ~/Kuch-Bhi (main)$ 20:56 ~/Kuch-Bhi (main)$ ls
+bash: syntax error near unexpected token `('
+20:58 ~/Kuch-Bhi (main)$ ls
+App  myenv
+20:58 ~/Kuch-Bhi (main)$ source myenv/bin/activate
+(myenv) 20:58 ~/Kuch-Bhi (main)$ cd App
+bash: cd: App: Not a directory
+(myenv) 20:58 ~/Kuch-Bhi (main)$ pip install -r requirements.txt
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+(myenv) 20:58 ~/Kuch-Bhi (main)$ python app.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/app.py': [Errno 2] No such file or directory
+(myenv) 20:58 ~/Kuch-Bhi (main)$ source myenv/bin/activate
+(myenv) 21:00 ~/Kuch-Bhi (main)$ pip install -r requirements.txt
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+(myenv) 21:00 ~/Kuch-Bhi (main)$ python app.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/app.py': [Errno 2] No such file or directory
+(myenv) 21:00 ~/Kuch-Bhi (main)$ pwd
+/home/whoishakib/Kuch-Bhi
+(myenv) 21:00 ~/Kuch-Bhi (main)$ ls
+App  myenv
+(myenv) 21:00 ~/Kuch-Bhi (main)$ ls
+App  myenv
+(myenv) 21:01 ~/Kuch-Bhi (main)$ python App.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/App.py': [Errno 2] No such file or directory
+(myenv) 21:03 ~/Kuch-Bhi (main)$ python Kuch-Bhi.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/Kuch-Bhi.py': [Errno 2] No such file or directory
+(myenv) 21:04 ~/Kuch-Bhi (main)$ python App.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/App.py': [Errno 2] No such file or directory
+(myenv) 21:05 ~/Kuch-Bhi (main)$ python App.py
+python: can't open file '/home/whoishakib/Kuch-Bhi/App.py': [Errno 2] No such file or directory
+(myenv) 21:05 ~/Kuch-Bhi (main)$ ls
+App  myenv
+(myenv) 21:06 ~/Kuch-Bhi (main)$ python App
+Traceback (most recent call last):
+  File "/home/whoishakib/Kuch-Bhi/App", line 1, in <module>
+    from flask import Flask, render_template, request
+ModuleNotFoundError: No module named 'flask'
+(myenv) 21:07 ~/Kuch-Bhi (main)$ pip install Flask
+Looking in links: /usr/share/pip-wheels
+Collecting Flask
+  Downloading flask-3.0.0-py3-none-any.whl (99 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.7/99.7 KB 3.4 MB/s eta 0:00:00
+Collecting Jinja2>=3.1.2
+  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 KB 4.4 MB/s eta 0:00:00
+Collecting Werkzeug>=3.0.0
+  Downloading werkzeug-3.0.1-py3-none-any.whl (226 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 226.7/226.7 KB 8.1 MB/s eta 0:00:00
+Collecting click>=8.1.3
+  Downloading click-8.1.7-py3-none-any.whl (97 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.9/97.9 KB 3.5 MB/s eta 0:00:00
+Collecting itsdangerous>=2.1.2
+  Downloading itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+Collecting blinker>=1.6.2
+  Downloading blinker-1.7.0-py3-none-any.whl (13 kB)
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Installing collected packages: MarkupSafe, itsdangerous, click, blinker, Werkzeug, Jinja2, Flask
+Successfully installed Flask-3.0.0 Jinja2-3.1.2 MarkupSafe-2.1.3 Werkzeug-3.0.1 blinker-1.7.0 click-8.1.7 itsdangerous-2.1.2
+(myenv) 21:07 ~/Kuch-Bhi (main)$ python App
+Traceback (most recent call last):
+  File "/home/whoishakib/Kuch-Bhi/App", line 2, in <module>
+    from PIL import Image
+ModuleNotFoundError: No module named 'PIL'
+(myenv) 21:08 ~/Kuch-Bhi (main)$ pip install Pillow
+Looking in links: /usr/share/pip-wheels
+Collecting Pillow
+  Downloading Pillow-10.1.0-cp310-cp310-manylinux_2_28_x86_64.whl (3.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 3.1 MB/s eta 0:00:00
+Installing collected packages: Pillow
+Successfully installed Pillow-10.1.0
+(myenv) 21:09 ~/Kuch-Bhi (main)$ python App
+Traceback (most recent call last):
+  File "/home/whoishakib/Kuch-Bhi/App", line 3, in <module>
+    import pytesseract
+ModuleNotFoundError: No module named 'pytesseract'
+(myenv) 21:09 ~/Kuch-Bhi (main)$ pip install pytesseract
+Looking in links: /usr/share/pip-wheels
+Collecting pytesseract
+  Downloading pytesseract-0.3.10-py3-none-any.whl (14 kB)
+Requirement already satisfied: Pillow>=8.0.0 in ./myenv/lib/python3.10/site-packages (from pytesseract) (10.1.0)
+Collecting packaging>=21.3
+  Downloading packaging-23.2-py3-none-any.whl (53 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.0/53.0 KB 1.7 MB/s eta 0:00:00
+Installing collected packages: packaging, pytesseract
+Successfully installed packaging-23.2 pytesseract-0.3.10
+(myenv) 21:10 ~/Kuch-Bhi (main)$ python App
+ * Serving Flask app 'App'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.220:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 239-850-030
